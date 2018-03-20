@@ -7,9 +7,20 @@ namespace Modul6
     {
         static void Main(string[] args)
         {
+            Cube myCube = new Cube(2, 3, 4);
+            Cube superCube = new Cube(50, 60, 70);
+
             Circle bob = new Circle("Bob", 8);
             Circle lisa = new Circle("Lisa", 30);
 
+            Console.WriteLine(bob.ToString());
+
+            Rectangle myRectangle = new Rectangle();
+            myRectangle.Height = 100;
+
+            Console.WriteLine(myRectangle.ToString());
+
+            /*
             bob.SayHello();
             lisa.SayHello();
             Console.WriteLine();
@@ -22,6 +33,7 @@ namespace Modul6
             Console.WriteLine();
             ali.WriteArea();
             johnDoe.WriteArea();
+            */
         }
     }
 }

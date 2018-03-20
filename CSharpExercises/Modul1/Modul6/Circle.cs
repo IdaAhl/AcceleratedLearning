@@ -8,7 +8,8 @@ namespace Modul6
     {
         string _name = "Unknown";
         int _radius = 5;
-
+        int _x = 5;
+        int _y = 7;
 
         public Circle()
         {
@@ -24,10 +25,17 @@ namespace Modul6
             this._radius = radius;
         }
 
+        public override string ToString()
+        {
+            return $"I'm a circle and x= {_x}, y= {_y} and radius={_radius}";
+        }
+
         public double Area => ((_radius * _radius) * Math.PI);
+
         public void SayHello()
         {
             Console.WriteLine($"I'm a circle and my name is {_name}");
+
         }
 
         public void WriteArea()
