@@ -9,10 +9,12 @@ namespace Modul5
     class Program
     {
         private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+        //måste vara i en class
+        //kan gör public för att synas på andra ställen
 
         static void Main(string[] args)
         {
-            log.Info("Hej!");
+            
             Console.WriteLine("Hit enter");
             Console.ReadLine();
 
@@ -27,14 +29,16 @@ namespace Modul5
             MinStrukt.ChangePunkt();
             Console.WriteLine($"Min punkt är {MinStrukt.X}");
 
-            
+            //log.Info("Hej!" + MinStrukt.X );
+
+
             //Punkt nyPunkt = new Punkt(10,4);
 
             //nyPunkt.Print();
             //nyPunkt.MovePunkt500();
             //nyPunkt.MoveX(50);
             //nyPunkt.Print();
-            
+
 
 
 

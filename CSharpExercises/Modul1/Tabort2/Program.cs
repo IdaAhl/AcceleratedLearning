@@ -22,9 +22,6 @@ namespace Tabort2
     {
         public string Isbn { get; set; }
         public string Author { get; set; }
-
-
-
         private int _nrOfPages;
 
         public void SetNrOfPages(int value)
