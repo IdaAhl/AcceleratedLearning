@@ -29,7 +29,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul5", "Modul5\Modul5.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tabort2", "Tabort2\Tabort2.csproj", "{48ADEA4D-2167-455F-8586-C298A20F7A37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul6", "Modul6\Modul6.csproj", "{1B68CF92-36AA-4755-A696-1F9EF379BAEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul6", "Modul6\Modul6.csproj", "{1B68CF92-36AA-4755-A696-1F9EF379BAEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul6-4", "Modul6-4\Modul6-4.csproj", "{EF5C29DD-19CE-44FC-A3E9-3F5E3361EBE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul6-5", "Modul6-5\Modul6-5.csproj", "{A3FDC618-E8B0-46CA-94E6-42FFDBB7D4B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +97,14 @@ Global
 		{1B68CF92-36AA-4755-A696-1F9EF379BAEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B68CF92-36AA-4755-A696-1F9EF379BAEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B68CF92-36AA-4755-A696-1F9EF379BAEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF5C29DD-19CE-44FC-A3E9-3F5E3361EBE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF5C29DD-19CE-44FC-A3E9-3F5E3361EBE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF5C29DD-19CE-44FC-A3E9-3F5E3361EBE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF5C29DD-19CE-44FC-A3E9-3F5E3361EBE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3FDC618-E8B0-46CA-94E6-42FFDBB7D4B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3FDC618-E8B0-46CA-94E6-42FFDBB7D4B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3FDC618-E8B0-46CA-94E6-42FFDBB7D4B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3FDC618-E8B0-46CA-94E6-42FFDBB7D4B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

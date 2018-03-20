@@ -15,7 +15,11 @@ namespace Modul6
 
             Console.WriteLine(bob.ToString());
 
-            Rectangle myRectangle = new Rectangle();
+            Rectangle myRectangle = new Rectangle
+            {
+                X = 10,
+                Y = 15
+            };
             myRectangle.Height = 100;
 
             Console.WriteLine(myRectangle.ToString());
