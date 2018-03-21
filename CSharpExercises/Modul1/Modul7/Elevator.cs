@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Modul7
 {
-    class Elevator
+    public class Elevator
     {
         public string Name { get; private set; }
         public int HighestFloor { get; private set; }
@@ -19,6 +19,11 @@ namespace Modul7
 
         public Elevator(int highestFloor, int lowestFloor, int currentFloor, string name, int usedTime) :this(name)
         {
+            if (currentFloor > highestFloor || currentFloor < lowestFloor)
+            {
+                throw new Exception("Hej hej hopp");
+
+            }
             HighestFloor = highestFloor;
             LowestFloor = lowestFloor;
             CurrentFloor = currentFloor;
