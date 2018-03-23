@@ -35,11 +35,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul6-4", "Modul6-4\Modul6
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul6-5", "Modul6-5\Modul6-5.csproj", "{A3FDC618-E8B0-46CA-94E6-42FFDBB7D4B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul7", "Modul7\Modul7.csproj", "{72505CCD-A749-49F6-9E51-C94FA865B866}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul7", "Modul7\Modul7.csproj", "{72505CCD-A749-49F6-9E51-C94FA865B866}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul8", "Modul8\Modul8.csproj", "{1CC26BD0-E5CE-48BD-900B-DAD822DFED5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul8", "Modul8\Modul8.csproj", "{1CC26BD0-E5CE-48BD-900B-DAD822DFED5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevatorTest", "ElevatorTest\ElevatorTest.csproj", "{C741CF66-9E98-4E48-9FE9-8FF7B1360031}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElevatorTest", "ElevatorTest\ElevatorTest.csproj", "{C741CF66-9E98-4E48-9FE9-8FF7B1360031}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul9", "Modul9\Modul9.csproj", "{53653199-9B7F-437E-9933-2B1F111E00C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +125,10 @@ Global
 		{C741CF66-9E98-4E48-9FE9-8FF7B1360031}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C741CF66-9E98-4E48-9FE9-8FF7B1360031}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C741CF66-9E98-4E48-9FE9-8FF7B1360031}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53653199-9B7F-437E-9933-2B1F111E00C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53653199-9B7F-437E-9933-2B1F111E00C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53653199-9B7F-437E-9933-2B1F111E00C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53653199-9B7F-437E-9933-2B1F111E00C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
