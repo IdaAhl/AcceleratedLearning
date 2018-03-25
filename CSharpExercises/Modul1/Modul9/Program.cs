@@ -11,7 +11,59 @@ namespace Modul9
         {
 
             //WatchProgram();
+            //AskUserAndRespond(ToUpper);
+            //AskUserForNumberAndRespond(MinusTio);
+            //AskUserForNumberAndRespond(PlusTio);
+            AskUserForSomethinFunAndRespond(WriteSomethingFun);
 
+        }
+
+        private static  void AskUserAndRespond(Func<string, string> converter)
+        {
+            Console.Write($"Enter a string to convert:");
+            string input = Console.ReadLine().Trim();
+            string answer = converter(input);
+            Console.WriteLine($"Here is the result:{answer}\n");
+        }
+
+        private static string ToUpper(string s)
+        {
+            return s.ToUpper();
+        }
+
+        private static string Tripple(string s)
+        {
+            return s + s + s;
+        }
+
+        private static void AskUserForNumberAndRespond(Func<int, int> newNumber)
+        {
+            Console.Write($"Enter a number to convert:");
+            var input = int.Parse(Console.ReadLine());
+            var answer = newNumber(input);
+            Console.WriteLine($"Here is the result:{answer}\n");
+        }
+
+        private static int PlusTio(int number)
+        {
+            return number + 10;
+        }
+
+        private static int MinusTio(int number)
+        {
+            return number - 10;
+        }
+
+        private static void AskUserForSomethinFunAndRespond(Action<string> somethingFun)
+        {
+            Console.Write($"Enter somethingfun:");
+            var input = Console.ReadLine();
+            somethingFun(input);
+        }
+
+        private static void WriteSomethingFun(string somethingFun)
+        {
+            Console.WriteLine($"{somethingFun} is fun");
         }
 
         public static void WatchProgram()
@@ -40,16 +92,6 @@ namespace Modul9
             Console.WriteLine("File: {0} renamed to {1}", e.OldFullPath, e.FullPath);
         }
 
-        public static void AskAndRespond_ToUpper()
-        {
-            Console.Write("Enter a string to convert:");
-            var stringFromUser = Console.ReadLine();
-            Console.WriteLine(AddStars(stringFromUser));
-        }
-
-        public static string AddStars(string message)
-        {
-            return "*"+ message.ToUpper().Trim() + "*";
-        }
+        
     }
 }
