@@ -4,18 +4,41 @@ using System.Runtime.InteropServices;
 
 namespace Modul9
 {
-    //public delegate void Del();
+
+
     class Program
     {
+        static event Action spacePressed;
         static void Main(string[] args)
         {
+            spacePressed += WriteLine;
+            ListenToKeyPress();
 
             //WatchProgram();
             //AskUserAndRespond(ToUpper);
             //AskUserForNumberAndRespond(MinusTio);
             //AskUserForNumberAndRespond(PlusTio);
-            AskUserForSomethinFunAndRespond(WriteSomethingFun);
+            //AskUserForSomethinFunAndRespond(WriteSomethingFun);
 
+        }
+
+        private static void WriteLine()
+        {
+            Console.WriteLine("--------------");
+        }
+
+        private static void ListenToKeyPress()
+        {
+            char keyPressed;
+            do
+            {
+                keyPressed = Console.ReadKey(true).KeyChar;
+                if (keyPressed == ' ')
+                {
+                    spacePressed.Invoke();
+                }
+            }
+            while (keyPressed != 'q');
         }
 
         private static  void AskUserAndRespond(Func<string, string> converter)
