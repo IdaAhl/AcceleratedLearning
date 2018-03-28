@@ -41,7 +41,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul8", "Modul8\Modul8.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElevatorTest", "ElevatorTest\ElevatorTest.csproj", "{C741CF66-9E98-4E48-9FE9-8FF7B1360031}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul9", "Modul9\Modul9.csproj", "{53653199-9B7F-437E-9933-2B1F111E00C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul9", "Modul9\Modul9.csproj", "{53653199-9B7F-437E-9933-2B1F111E00C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul10", "Modul10\Modul10.csproj", "{5DC49D73-D5C5-4E13-91CD-7679420BB8A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul11", "Modul11\Modul11.csproj", "{EFDA632F-90BD-43D6-9361-93FF8A81D9B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul12", "Modul12\Modul12.csproj", "{2EAC1D22-ECEB-4612-BBD2-BA4314F9A6D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +135,18 @@ Global
 		{53653199-9B7F-437E-9933-2B1F111E00C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53653199-9B7F-437E-9933-2B1F111E00C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53653199-9B7F-437E-9933-2B1F111E00C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DC49D73-D5C5-4E13-91CD-7679420BB8A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DC49D73-D5C5-4E13-91CD-7679420BB8A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DC49D73-D5C5-4E13-91CD-7679420BB8A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DC49D73-D5C5-4E13-91CD-7679420BB8A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFDA632F-90BD-43D6-9361-93FF8A81D9B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFDA632F-90BD-43D6-9361-93FF8A81D9B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFDA632F-90BD-43D6-9361-93FF8A81D9B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFDA632F-90BD-43D6-9361-93FF8A81D9B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EAC1D22-ECEB-4612-BBD2-BA4314F9A6D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EAC1D22-ECEB-4612-BBD2-BA4314F9A6D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EAC1D22-ECEB-4612-BBD2-BA4314F9A6D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EAC1D22-ECEB-4612-BBD2-BA4314F9A6D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
