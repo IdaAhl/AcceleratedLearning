@@ -43,11 +43,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElevatorTest", "ElevatorTes
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul9", "Modul9\Modul9.csproj", "{53653199-9B7F-437E-9933-2B1F111E00C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul10", "Modul10\Modul10.csproj", "{5DC49D73-D5C5-4E13-91CD-7679420BB8A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul10", "Modul10\Modul10.csproj", "{5DC49D73-D5C5-4E13-91CD-7679420BB8A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul11", "Modul11\Modul11.csproj", "{EFDA632F-90BD-43D6-9361-93FF8A81D9B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul11", "Modul11\Modul11.csproj", "{EFDA632F-90BD-43D6-9361-93FF8A81D9B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul12", "Modul12\Modul12.csproj", "{2EAC1D22-ECEB-4612-BBD2-BA4314F9A6D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul12", "Modul12\Modul12.csproj", "{2EAC1D22-ECEB-4612-BBD2-BA4314F9A6D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegEx1", "RegEx1\RegEx1.csproj", "{ABE71417-E47C-4CFC-9DD9-21F0789775EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +149,10 @@ Global
 		{2EAC1D22-ECEB-4612-BBD2-BA4314F9A6D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EAC1D22-ECEB-4612-BBD2-BA4314F9A6D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EAC1D22-ECEB-4612-BBD2-BA4314F9A6D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABE71417-E47C-4CFC-9DD9-21F0789775EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABE71417-E47C-4CFC-9DD9-21F0789775EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABE71417-E47C-4CFC-9DD9-21F0789775EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABE71417-E47C-4CFC-9DD9-21F0789775EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -8,9 +8,10 @@ namespace Modul9
 
     class Program
     {
-        static event Action spacePressed;
+        static event Action<int> spacePressed;
         static void Main(string[] args)
         {
+            spacePressed += WriteLine;
             spacePressed += WriteLine;
             ListenToKeyPress();
 
@@ -22,9 +23,9 @@ namespace Modul9
 
         }
 
-        private static void WriteLine()
+        private static void WriteLine(int something)
         {
-            Console.WriteLine("--------------");
+            Console.WriteLine(something);
         }
 
         private static void ListenToKeyPress()
@@ -35,7 +36,7 @@ namespace Modul9
                 keyPressed = Console.ReadKey(true).KeyChar;
                 if (keyPressed == ' ')
                 {
-                    spacePressed.Invoke();
+                    spacePressed.Invoke(5);
                 }
             }
             while (keyPressed != 'q');
