@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+    <h3>Validera kund med attribut </h3>
+    <form method="post" action="/API5/AddPersonAttribute">
+        <input name="Name" type="Text" value="Namn" />
+        <input name="Age" type="Text" value="Ålder" />
+        <button>Ok</button>
+    </form>
+
+    <hr />
+    <hr />
+    <hr />
+
+    <h3>Validera kund med regex </h3>
+    <form method="post" action="/API5/AddPersonValidate">
+        <input name="Name" type="Text" value="Namn" />
+        <input name="Age" type="Text" value="Ålder" />
+        <button>Ok</button>
+    </form>
+
+    <hr />
+    <hr />
+    <hr />
+
+    <h3>Validera kund </h3>
+    <form method="post" action="/API5/AddPerson">
+        <input name="Name" type="Text" value="Namn" />
+        <input name="Age" type="Text" value="Ålder" />
+        <button>Ok</button>
+    </form>
+
+    <hr />
+    <hr />
+    <hr />
+
+    <h3>Fyll kunden</h3>
+    <form method="post" action="/CRM/CheckCustomer">
+        <input name="Person" type="Text" value="Namn" />
+        <button>Ok</button>
+    </form>
+
+    <hr />
+    <form method="post" action="/CRM/CheckOrderNumber">
+        <input name="OrderNumber" type="Text" value="ordernummer" />
+        <button>Ok</button>
+    </form>
+    <h3>Fyll i ditt ordernummer</h3>
+
+    <hr />
+
+
+
+    <h3>Hur många saka dela...</h3>
+    <form method="post" action="/CRM/ShareChocolate">
+        <input name="Persons" type="Text" value="Antal personer" />
+        <button>Ok</button>
+    </form>
+
+    <hr />
+
+
+    <h3>Skriv ut tal...</h3>
+    <form method="post" action="/fun/numbers">
+        <input name="From" type="Text" value="från nummer..." />
+        <input name="To" type="Text" value="till." />
+        <button>Ok</button>
+    </form>
+
+    <hr />
+
+    <h3>Kvadera ett tal,</h3>
+    <form method="post" action="/fun/number">
+        <input name="Number" type="Text" value="vilket?" />
+        <button>Ok</button>
+    </form>
+
+    <hr />
+
+
+    <h3>Välj färg på bakgrunden</h3>
+    <form method="post" action="/fun/color">
+        <input name="Name" type="Text" value="Color" />
+        <button>Ok</button>
+    </form>
+    <hr />
+
+
+
+    <h3>Vad äter du till frukost</h3>
+    <form method="post" action="/fun/egg">
+        <input name="Name" type="Text" value="Vad äter du till frukost" />
+        <button>Ok</button>
+    </form>
+
+    <hr />
+    <h3>Hej</h3>
+    <form action="/api/ex1/hello">
+        <input type="submit" value="Hello" />
+    </form>
+    <br />
+
+    <hr />
+    <h3>Lägg till en planet på det magsika sättet</h3>
+    <form method="post" action="/planet/addPlanet2">
+        Planet: <input name="Name" value="Skriv en planet" />
+        <br /><br />
+        Storlek: <input name="Size" value="skriv hur stor den är" />
+        <button>Ok</button>
+    </form>
+
+
+
+    <hr />
+    <h3>Lägg till planet på det tråkiga sättet</h3>
+    <form id="form" name="form" method="post" action="/planet/addPlanet">
+        Planet:<input type="text" name="planet" id="planet" />
+        <br /> <br />
+        Storlek:
+        <input type="text" name="storlek" id="storlek" />
+        <input type="submit" name="skicka" id="skicka" value="Ok" />
+
+
+    </form>
+</body>
+</html>
